@@ -13,7 +13,7 @@ int main()
 	  }
 	 
 	 int j,swap;
-
+                                          //Sorting of elements starts
 	 for( i=0; i<size-1; i++ ) {
 	     for( j=i+1; j<size; j++ )	{
 			if( arr[j] < arr[i] ) {
@@ -23,11 +23,11 @@ int main()
 			}
 	    }
 	 }
-
+      
 	printf("After sorting :\n");
 
 	  for(i=0;i<size;i++) {
-	       printf("%d  ",arr[i]);
+	       printf("%d  ",arr[i]);    //The sorted array is printed.
 	   }
 	return 0;
 }
